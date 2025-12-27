@@ -34,7 +34,7 @@ export default function Contact() {
           <div className="absolute -inset-1 bg-linear-to-r from-blue-600 to-purple-600 rounded-3xl blur opacity-20 group-hover:opacity-40 transition duration-1000"></div>
           <div className="relative w-full max-w-md overflow-hidden rounded-3xl border border-slate-700 bg-slate-800">
             <img
-              src="src/assets/contactport.png"
+              src="./images/contactport.png"
               alt="Contact Me"
               className="w-full h-full object-cover group-hover:scale-105 transition duration-500"
             />
