@@ -11,7 +11,7 @@ export default function Tools() {
       name: "VS Code",
       icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg",
     },
-    { name: "MAMP", icon: "./images/mamplogo.webp" },
+    { name: "MAMP", icon: "/images/mamplogo.webp" },
     {
       name: "Laravel",
       icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg",
@@ -62,7 +62,7 @@ export default function Tools() {
     },
     {
       name: "HeidiSQL",
-      icon: "./images/menu_image.png",
+      icon: "/images/menu_image.png",
     },
   ];
 
@@ -72,27 +72,27 @@ export default function Tools() {
       title: "Digital Product Sharing Subscription System",
       desc: "Sistem informasi penjualan berbasis web dengan integrasi pembayaran dan manajemen produk.",
       link: "#",
-      image: "./images/Screenshot 2025-12-27 170833.png", // Ganti ke path lokal: "./images/project1.png"
+      image: "/images/webptg.png", // Ganti ke path lokal: "./images/project1.png"
     },
     {
       title: "Online Tutoring Website",
       desc: "Manajemen stok barang gudang realtime menggunakan Laravel & MySQL untuk optimasi bisnis.",
       link: "#",
-      image: "images/Screenshot 2025-12-27 165846.png", // Ganti ke path lokal: "./images/project2.png"
+      image: "images/webbm.png", // Ganti ke path lokal: "./images/project2.png"
     },
 
     {
       title: "Pempek Techi Website",
       desc: "Manajemen stok barang gudang realtime menggunakan Laravel & MySQL untuk optimasi bisnis.",
       link: "#",
-      image: "images/Screenshot 2025-12-27 172529.png", // Ganti ke path lokal: "./images/project2.png"
+      image: "/images/webpt.png", // Ganti ke path lokal: "./images/project2.png"
     },
 
     {
       title: "Coffeeshop Website",
       desc: "Manajemen stok barang gudang realtime menggunakan Laravel & MySQL untuk optimasi bisnis.",
       link: "#",
-      image: "images/Screenshot 2025-12-27 165812.png", // Ganti ke path lokal: "./images/project2.png"
+      image: "/images/webcs.png", // Ganti ke path lokal: "./images/project2.png"
     },
   ];
 
