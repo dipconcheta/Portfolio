@@ -13,8 +13,7 @@ function App() {
       <div className="max-w-6xl mx-auto px-6">
         <Hero />
 
-        {/* Ganti grid menjadi flex-col agar About dan Tools bertumpuk ke bawah di tengah */}
-        <div className="flex flex-col items-center gap-24 py-4 ">
+        <div className="flex flex-col items-center gap-24 ">
           <About />
           <Tools />
           <Contact />

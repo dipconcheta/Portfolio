@@ -11,10 +11,9 @@ export default function Hero() {
   return (
     <section
       id="hero"
-      className="relative min-h-screen flex items-center justify-center px-6 overflow-hidden pt-20 bg-[#0b0f1a]"
+      className="relative min-h-auto flex items-center justify-center px-6 overflow-hidden pt-52 pb-24 bg-[#0b0f1a]"
     >
       <div className="relative z-10 max-w-7xl w-full flex flex-col md:flex-row items-center justify-between gap-12">
-        {/* Kontainer teks: Menggunakan items-center & text-center untuk mobile */}
         <div className="flex-1 flex flex-col items-center md:items-start text-center md:text-left order-2 md:order-1">
           <h1 className="text-4xl md:text-6xl font-extrabold text-white mb-6 tracking-tight leading-tight">
             Hi There,

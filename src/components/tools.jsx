@@ -104,7 +104,7 @@ export default function Tools() {
   return (
     <section
       id="projects"
-      className="py-20 md:py-32 px-4 sm:px-6 max-w-7xl mx-auto"
+      className="pt-8 pb-8 md:py-32 px-4 sm:px-6 max-w-7xl mx-auto"
     >
       <div className="flex justify-center mb-12 md:mb-20">
         <div className="inline-flex p-1.5 md:p-2 bg-slate-900/90 border border-slate-800 rounded-2xl md:rounded-3xl backdrop-blur-2xl shadow-2xl">
@@ -181,17 +181,14 @@ export default function Tools() {
             initial={{ opacity: 0, scale: 0.95 }}
             animate={{ opacity: 1, scale: 1 }}
             exit={{ opacity: 0, scale: 0.95 }}
-            /* Perubahan di sini: grid-cols-3 untuk mobile */
             className="grid grid-cols-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3 md:gap-8"
           >
             {techStack.map((tech, index) => (
               <motion.div
                 key={index}
                 whileHover={{ y: -8, scale: 1.02 }}
-                /* Padding disesuaikan (p-4) agar muat 3 kolom */
                 className="flex flex-col items-center justify-center p-4 md:p-10 bg-slate-900/50 border border-slate-800 rounded-xl md:rounded-[2.5rem] shadow-lg transition-all duration-300 backdrop-blur-sm"
               >
-                {/* Ukuran logo disesuaikan (w-10 h-10) untuk mobile */}
                 <div className="w-10 h-10 md:w-20 md:h-20 mb-3 md:mb-6 flex items-center justify-center">
                   <img
                     src={tech.icon}
