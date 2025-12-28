@@ -14,11 +14,11 @@ export default function Hero() {
       className="relative min-h-screen flex items-center justify-center px-6 overflow-hidden pt-20 bg-[#0b0f1a]"
     >
       <div className="relative z-10 max-w-7xl w-full flex flex-col md:flex-row items-center justify-between gap-12">
-        <div className="flex-1 text-left order-2 md:order-1">
+        {/* Kontainer teks: Menggunakan items-center & text-center untuk mobile */}
+        <div className="flex-1 flex flex-col items-center md:items-start text-center md:text-left order-2 md:order-1">
           <h1 className="text-4xl md:text-6xl font-extrabold text-white mb-6 tracking-tight leading-tight">
             Hi There,
             <br />
-            {/* Ubah linear jadi linear agar lebih aman */}
             <span className="text-transparent bg-clip-text bg-linear-to-r from-blue-400 via-cyan-400 to-purple-500">
               I'm Muhamad Radyf Al Zikra
             </span>
@@ -40,23 +40,22 @@ export default function Hero() {
             />
           </div>
 
-          <div className="flex flex-col sm:flex-row gap-5 mb-10">
+          <div className="flex flex-col sm:flex-row items-center justify-center md:justify-start gap-5 mb-10 w-full md:w-auto">
             <a
               href="#projects"
-              className="px-8 py-4 bg-linear-to-r from-blue-600 to-cyan-500 hover:from-blue-500 hover:to-cyan-400 text-white rounded-2xl font-bold shadow-xl shadow-blue-500/20 transition-all hover:-translate-y-1 active:scale-95 text-center"
+              className="w-full sm:w-auto px-8 py-4 bg-linear-to-r from-blue-600 to-cyan-500 hover:from-blue-500 hover:to-cyan-400 text-white rounded-2xl font-bold shadow-xl shadow-blue-500/20 transition-all hover:-translate-y-1 active:scale-95 text-center"
             >
               View Projects
             </a>
             <a
               href="#contact"
-              className="px-8 py-4 bg-slate-800 hover:bg-slate-700 text-white rounded-2xl font-bold border border-slate-700 transition-all hover:-translate-y-1 active:scale-95 text-center"
+              className="w-full sm:w-auto px-8 py-4 bg-slate-800 hover:bg-slate-700 text-white rounded-2xl font-bold border border-slate-700 transition-all hover:-translate-y-1 active:scale-95 text-center"
             >
               Contact
             </a>
           </div>
 
-          {/* SOCIAL MEDIA */}
-          <div className="flex items-center gap-4">
+          <div className="flex items-center justify-center md:justify-start gap-4">
             {[
               {
                 icon: faInstagram,
@@ -75,7 +74,7 @@ export default function Hero() {
               },
               {
                 icon: faLinkedin,
-                href: "www.linkedin.com/in/muhamad-radyf-alzikra",
+                href: "https://www.linkedin.com/in/muhamad-radyf-alzikra",
                 color: "hover:text-blue-500 hover:border-blue-500/50",
               },
             ].map((social, index) => (

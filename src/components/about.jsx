@@ -53,7 +53,7 @@ export default function About() {
             <div className="absolute -inset-1 bg-linear-to-r from-blue-600 to-purple-600 rounded-full blur opacity-25 group-hover:opacity-50 transition duration-1000"></div>
             <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full border-2 border-slate-700 overflow-hidden bg-slate-800 shadow-2xl">
               <img
-                src="./images/mnyt.webp"
+                src="./images/fotogw.jpeg"
                 alt="Muhamad Radyf Al Zikra"
                 className="w-full h-full object-cover transition duration-500 group-hover:scale-105"
               />
