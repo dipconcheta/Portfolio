@@ -68,7 +68,7 @@ export default function Hero() {
               },
               {
                 icon: faWhatsapp,
-                href: "https://wa.me/081273507037",
+                href: "https://wa.me/6281273507037",
                 color: "hover:text-green-500 hover:border-green-500/50",
               },
               {
